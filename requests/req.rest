@@ -2,6 +2,18 @@ POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
-    "name": "Dan abramov",
-    "number": "12321231213"
+    "name": "D",
+}
+
+####
+DELETE http://localhost:3001/api/persons/6484e2ba994c63bc516ca506
+
+
+###
+PUT http://localhost:3001/api/persons/6484ead0bc2956610f775802
+Content-Type: application/json
+
+{
+    "name": "d",
+    "number": "000000000"
 }
